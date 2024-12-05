@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto; 
+}
+
+.one{
+       gap: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.box{
+    background-color: purple;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+display: flex;
+justify-content: start;
+gap: 10px;
+border-radius: 10px;
+}
+.two{
+    width: 40px;
+    height: 40px;
+     background-color: yellow;
+     border-radius: 10px;
+     
+}
+.tri{
+    display: flex;
+    flex-direction: column;
+}
+.four{
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.five{
+    justify-content: space-between;
+}
+.six{
+    justify-content: end;
+}
+.seven{
+    justify-content: center;
+}
+.ten{
+    align-items: end;
+}
+.eleven{
+    align-items: center;
+}
+.qq{
+    margin-top: -79px;
+}
